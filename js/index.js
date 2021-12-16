@@ -16,13 +16,13 @@ function runSearchQuery(event, sdk) {
     // Get the thread view of the event
     const threadView = event.selectedThreadViews ? event.selectedThreadViews[0] : null;
     if (!threadView) {
-        console.log('No thread view for the selected event', event);
+        alert('No thread view for the selected event');
         return;
     }
     // Get the subject of the current view
     const strSubject = threadView.getSubject();
     if (!strSubject) {
-        console.log('No subject for the selected message thread', threadView);
+        alert('No subject for the selected message thread');
         return;
     }
     // Send a message to the background page to run the search
