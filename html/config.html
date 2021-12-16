@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Settings</title>
+    <style>
+      kbd {
+        font-size: inherit;
+        font-family: inherit;
+      }
+      input {
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      .success {
+        color: green;
+      }
+      .error {
+        color: red;
+      }
+      .message {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <form id="js-form">
+      <label for="template">Enter the search query template and press <kbd>ENTER</kbd> to save</label>
+      <input type="text" size=70 id="js-template" name="template"/>
+      <span class="message" id="js-message"></span>
+      <a href=https://github.com/ggiguash/gmail-xsearch-chrome/blob/master/README.md target=_blank>Help</a>
+    </form>
+    <script src="../js/config.js"></script>
+  </body>
+</html>

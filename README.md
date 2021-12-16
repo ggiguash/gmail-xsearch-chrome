@@ -1,2 +1,2 @@
 # gmail-xsearch-chrome
-Run external search on a selected GMail message
+A Chrome extension for running external search query on a selected GMail message. The query results are opened in a new tab.
