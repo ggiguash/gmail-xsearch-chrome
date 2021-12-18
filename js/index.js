@@ -1,5 +1,5 @@
 // Register the application ID at https://www.inboxsdk.com/register
-const APP_ID = 'sdk_rhmailmanfinder_05fd2e88ac';
+const APP_ID = 'sdk_gmail-xsearch01_98bf02340a';
 
 InboxSDK.load(2, APP_ID).then(function (sdk) {
     // Add a thread button
