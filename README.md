@@ -5,7 +5,7 @@ The query results are opened in a new tab.
 
 This extension is not published in the Chrome Web Store. Follow the instructions in this section to install an unpacked extension in developer mode.
 
-Open the [chrome://extensions](chrome://extensions) page in your Google Chrome Browser and make sure that the `Developer mode` knob is turned on.
+Open the `chrome://extensions` page in your Google Chrome Browser and make sure that the `Developer mode` knob is turned on.
 
 ![Developer Mode](docs/dev_mode_knob.png)
 
