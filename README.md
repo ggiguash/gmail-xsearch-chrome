@@ -3,9 +3,9 @@ The query results are opened in a new tab.
 
 ## Installation
 
-This extension is not published on Chrome Web Store. Follow the instructions in this section to install an unpacked extension in developer mode.
+This extension is not published in the Chrome Web Store. Follow the instructions in this section to install an unpacked extension in developer mode.
 
-Open the `chrome://extensions` page in your Google Chrome Browser and make sure that the `Developer mode` knob is turned on.
+Open the [chrome://extensions](chrome://extensions) page in your Google Chrome Browser and make sure that the `Developer mode` knob is turned on.
 
 ![Developer Mode](docs/dev_mode_knob.png)
 
@@ -23,7 +23,7 @@ The configuration dialog displays the default search query template, which uses 
 
 ![Configuration Dialog](docs/config_dialog.png)
 
-Change the search query according to your needs and press `ENTER` to save settings. Specify the `${SUBJECT}` variable in the query where the email subject text should be substituted. 
+Change the search query according to your needs and press `ENTER` to save the settings. Specify the `${SUBJECT}` variable in the query where the email subject text should be substituted. 
 
 For instance, the following query runs an email subject search in the Google Groups archives.
 ```
@@ -35,4 +35,4 @@ https://groups.google.com/search/conversations?inOrg=true&q=subject%3A"${SUBJECT
 Open an email message in GMail and note the ![Search Icon](docs/search_icon.png) external search icon in the toolbox area.
 > You may need to press the ![Dots Icon](docs/dots_icon.png) menu button to see the full list of tools including the external search.
 
-Press the ![Search Icon](docs/search_icon.png) external search icon to see the query results in a new tab.
+Press the ![Search Icon](docs/search_icon.png) external search icon to open a new tab with the query results for the subject of the selected message.
