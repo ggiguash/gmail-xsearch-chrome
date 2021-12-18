@@ -15,7 +15,7 @@ Press the `Load unpacked` button and select the top-level directory of the `gmai
 
 ## Configuration
 
-Press the ![Extensions Button](docs/extensions_button.png) button in your browser and select the `GMail External Search` extension from the list.
+Press the ![Extensions Button](docs/extensions_button.png) button in your browser and select the `GMail External Search` extension from the list to open the extension configuration dialog.
 
 ![GMail External Search](docs/gmail_external_search.png)
 
@@ -23,15 +23,16 @@ The configuration dialog displays the default search query template, which uses 
 
 ![Configuration Dialog](docs/config_dialog.png)
 
-Change the search query according to your needs and press `ENTER` to save settings. Specify the `${SUBJECT}` variable in the query where the email subject text should be substituted. The following example runs the query in Google Groups archives.
+Change the search query according to your needs and press `ENTER` to save settings. Specify the `${SUBJECT}` variable in the query where the email subject text should be substituted. 
 
+For instance, the following query runs an email subject search in the Google Groups archives.
 ```
 https://groups.google.com/search/conversations?inOrg=true&q=subject%3A"${SUBJECT}"
 ```
 
 ## Usage
 
-Open an email message in GMail and note the ![Search Icon](docs/search_icon.png) external search icon in the toolbox area. 
-Note that you may need to press the ![Dots Icon](docs/dots_icon.png) menu button to see the full list of tools including the external search.
+Open an email message in GMail and note the ![Search Icon](docs/search_icon.png) external search icon in the toolbox area.
+> You may need to press the ![Dots Icon](docs/dots_icon.png) menu button to see the full list of tools including the external search.
 
 Press the ![Search Icon](docs/search_icon.png) external search icon to see the query results in a new tab.
